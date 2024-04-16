@@ -1,0 +1,128 @@
+.About {
+    @media (max-width: 768px) {
+        gap: 20px;
+    }
+
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 50px 0;
+
+    h2 {
+        font-size: 34px;
+        font-family: "Libre Bodoni", serif;
+    }
+
+    .section_about {
+        @media (max-width: 768px) {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        display: grid;
+        grid-template-columns: 55% 40%;
+        gap: 1%;
+        place-items: center;
+        padding: 20px 50px;
+        background-color: rgb(221, 208, 200);
+
+
+        .info {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            max-width: 350px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        img {
+            width: 90%;
+            height: 90%;
+            object-fit: cover;
+        }
+    }
+
+    .section_about_2 {
+        @media (max-width: 768px) {
+            display: flex;
+            flex-direction: column-reverse;
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        display: grid;
+        padding: 20px 50px;
+        grid-template-columns: 40% 57%;
+        gap: 1%;
+        place-items: center;
+
+
+        .info {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            max-width: 350px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        img {
+            width: 90%;
+            height: 90%;
+            object-fit: cover;
+        }
+    }
+
+    .end_section {
+        @media (max-width: 768px) {
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+        gap: 50px;
+        place-items: center;
+
+        .info {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            max-width: 80%;
+        }
+        h2{
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+            font-size: 16px;
+        }
+        button{
+            width: 200px;
+            height: 40px;
+            border-radius: 50px;
+            border: none;
+            background-color: #E1927F;
+            color: #fff;
+            font-weight: 600;
+            cursor: pointer;
+            margin-top: 50px;
+
+            &:hover{
+                letter-spacing: 1.5px;
+                transition: letter-spacing 0.2s linear;
+
+            }
+        }
+
+    }
+}
