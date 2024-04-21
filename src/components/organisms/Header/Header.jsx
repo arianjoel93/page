@@ -15,7 +15,7 @@ import { Sidebar } from 'primereact/sidebar';
 const Header = () => {
     const screen = window.screen.width
     const icons = [
-        { name: "facebook", image: facebook, alt: "facebook", url: "https://www.facebook.com/joel.arian.93" },
+        { name: "facebook", image: facebook, alt: "facebook", url: "https://www.facebook.com/profile.php?id=61550516717822" },
         { name: "instagram", image: instagram, alt: "instagram", url: "https://www.instagram.com/joel_arian93/" },
         { name: "github", image: github, alt: "github", url: "https://github.com/arianjoel93" },
         { name: "linkedIn", image: linkedIn, alt: "linkedIn", url: "https://www.linkedin.com/in/joel-ari%C3%A1n-tv" },
