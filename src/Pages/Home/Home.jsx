@@ -174,7 +174,7 @@ const Home = () => {
                                 saberes en estas áreas, así como incrementar sus conocimientos y ser más
                                 competitivos laboralmente.</h3>
                             <Link to="https://www.grupocodesi.com/" target="_blank">
-                                <button>Saber más de CODESI</button>
+                                <button>CURSOS DE PROGRAMACIÓN</button>
                             </Link>
                         </section>
                     </div>
