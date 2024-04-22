@@ -41,7 +41,7 @@ const Quote = () => {
                                 Desarrolla al mejor precio tu aplicación, o sitio web, desde un blog, un perfil personal hasta una tienda o plataforma para tu negocio.
                             </p>
                             <div className="btns">
-                                <Link to={`https://wa.me/+5213338419644`} target="_blank">
+                                <Link to={`https://wa.me/+5213344703129`} target="_blank">
                                     <button className='QuoteButton'>Cotizar gratis</button>
                                 </Link>
                                 <Link to={`https://scatterscience.com`} target="_blank">

@@ -71,7 +71,7 @@ const Header = () => {
                         <p>Joel Trincado</p>
                     </Link>
                     {screen > 768 &&
-                        <Link to='https://wa.me/+5213338419644' target="_blank">
+                        <Link to='https://wa.me/+5213344703129' target="_blank">
                             <button className="btn_whatsapp">
                                 <i className="pi pi-whatsapp" />
                                 <p>Contactar</p>

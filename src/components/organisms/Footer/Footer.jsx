@@ -19,7 +19,7 @@ const Footer = () => {
 
                 { title: "Sobre mí", url: "/sobre-mi" },
                 { title: "Contáctame", url: "https://scatterscience.com/contacto" },
-                // { title: "Próximos servicios", url: "https://wa.me/+5213338419644" },
+                // { title: "Próximos servicios", url: "https://wa.me/+5213344703129" },
                 { title: "Blog", url: "https://scatterscience.com" },
             ]
         },
@@ -34,7 +34,7 @@ const Footer = () => {
                     <span className="p-input-icon-left">
                         <i className="pi pi-whatsapp" />
                         <InputText placeholder="Whatsapp" value={message} onChange={(e) => setMessage(e.target.value)} />
-                        <Link to={`https://wa.me/+5213338419644?text=${message}`}>
+                        <Link to={`https://wa.me/+5213344703129?text=${message}`}>
                             <i className="pi pi-chevron-right" />
                         </Link>
                     </span>

@@ -32,7 +32,7 @@ const CarouselComponent = () => {
                     <div className='C_LEFT'>
                         <h1>{product.title}</h1>
                         <p>{product.subtitle}</p>
-                        <Link to={`https://wa.me/+5213338419644?text=${product.message}`} target="_blank">
+                        <Link to={`https://wa.me/+5213344703129?text=${product.message}`} target="_blank">
                             <button className='CoffeeButton'>{product.button}</button>
                         </Link>
                     </div>

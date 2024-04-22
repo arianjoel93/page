@@ -111,7 +111,7 @@ const Home = () => {
                                     <div class="image-area">
                                         <div class="img-wrapper">
                                             <img src={_.image} alt={_.imgAlt} />
-                                            <Link to={`https://wa.me/+5213338419644?text=${_?.message}`} target="_blank">
+                                            <Link to={`https://wa.me/+5213344703129?text=${_?.message}`} target="_blank">
                                                 <h2>Consulta tu idea</h2>
                                             </Link>
                                             <Link to={_?.view} target="_blank">
