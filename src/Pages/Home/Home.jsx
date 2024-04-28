@@ -3,7 +3,7 @@ import CarouselComponent from "../../components/organisms/Carousel/CarouselCompo
 import revista from "../../assets//revista.png"
 import cotizador from "../../assets/cotizador.png"
 import codebuilders from "../../assets/codebuilders.png"
-import duenas from "../../assets/duenas.png"
+import logo from "../../assets/logo.png"
 import focus from "../../assets/focus.png"
 import ia from "../../assets/ia.gif"
 import sitio from "../../assets/sitio_web.png"
@@ -40,12 +40,13 @@ const Home = () => {
         { title: "Cotizador de envíos", image: cotizador, imgAlt: "image_cotizador", url: "/proyectos/cotizador" },
     ]
     const productSend = [
+        { title: "Logos", image: logo, imgAlt: "logo", price: 300, message: "Quiero saber más sobre la creación de logos", },
         { title: "Páginas informativas", image: landing, imgAlt: "landing", price: 3000, message: "Quiero saber más sobre las páginas informativas", view: "https://cornflowerblue-wallaby-596168.builder-preview.com/" },
         { title: "Modelos de regresión con IA", image: lineal, imgAlt: "lineal", price: 6500, message: "Quiero una consulta gratis sobre Modelos de Regreción con IA", view: "https://medium.com/datos-y-ciencia/machine-learning-supervisado-fundamentos-de-la-regresi%C3%B3n-lineal-bbcb07fe7fd" },
         { title: "eCommerce", image: estadistica, imgAlt: "estadistica", price: 15000, message: "Quiero una consulta grátis sobre estadística inferencial", view: "https://lavenderblush-pigeon-326114.builder-preview.com" },
         { title: "Blogs", image: blogs, imgAlt: "blogs", price: 3000, message: " Quiero una consulta gratis para construir mi blog", view: "https://papayawhip-kudu-957129.builder-preview.com/" },
         { title: "Aplicaciones de utilidades", image: utilidades, imgAlt: "utilidades", price: 6000, message: "Quiero una consulta gratis sobre una palicación", view: "https://learn.microsoft.com/es-es/windows-app/overview" },
-        { title: "Consultas de Python", image: python, imgAlt: "python", price: 250, message: "Quiero información sobre las consultas de Python", view: "https://aws.amazon.com/es/what-is/python/" },
+        { title: "Tutorias de programación", image: python, imgAlt: "python", price: 250, message: "Quiero información sobre las consultas de Python", view: "https://aws.amazon.com/es/what-is/python/" },
         { title: "Hosting y dominios", image: hosting, imgAlt: "hosting", price: 500, message: "Quiero información sobre hosting y dominios", view: "https://www.hostinger.es/tutoriales/hosting-y-dominio/" },
         { title: "Modelos de regresión logística", image: logistica, imgAlt: "logistica", price: 6000, message: "Quiero información sobre los modelos de regreción logística", view: "https://www.ibm.com/es-es/topics/logistic-regression" },
     ]
@@ -102,7 +103,7 @@ const Home = () => {
                         </section>
                     </div>
                     <fieldset className="container">
-                        <legend>Proyectos más solicitados</legend>
+                        <legend>Servicios</legend>
                     </fieldset>
                     <section className="section_1 container">
                         {productSend?.map((_, index) => {
@@ -114,11 +115,15 @@ const Home = () => {
                                             <Link to={`https://wa.me/+5213344703129?text=${_?.message}`} target="_blank">
                                                 <h2>Consulta tu idea</h2>
                                             </Link>
-                                            <Link to={_?.view} target="_blank">
-                                                <ul>
+                                            {view ?
+                                            <Link to={_.view} target="_blank">
+                                                 <ul>
                                                     <li><a><img src={view} alt="view" /></a></li>
                                                 </ul>
                                             </Link>
+                                            :
+                                            <></>
+                                                }
                                         </div>
                                     </div>
                                     <h3>{_.title}</h3>
