@@ -79,7 +79,7 @@ const About = () => {
                     <div className="section_about_2">
                         <img src={congreso} alt="frontend" loading="lazy" />
                         <div className="info">
-                            <h2>Eventos</h2>
+                            <h2>Eventos Personales</h2>
                             <p>
                             Durante mi trayectoria como desarrollador, he tenido el privilegio de ser 
                             invitado a participar en congresos y eventos de carácter internacional por 
