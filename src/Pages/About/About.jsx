@@ -87,7 +87,7 @@ const About = () => {
                             sino que también me han permitido mantenerme actualizado sobre las últimas 
                             tendencias y avances en el mundo de la tecnología. Estar presente en estos 
                             eventos me ha brindado una invaluable experiencia y me ha impulsado a seguir 
-                            creciendo y mejorando como profesional.
+                            creciendo y mejorando como profesiona.
                             </p>
                         </div>
                     </div>
