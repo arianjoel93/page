@@ -18,9 +18,9 @@ const Footer = () => {
             link: [
 
                 { title: "Sobre mí", url: "/sobre-mi" },
-                { title: "Contáctame", url: "https://scatterscience.com/contacto" },
+                { title: "Contáctame", url: "https://joeltrincado.com/contacto" },
                 // { title: "Próximos servicios", url: "https://wa.me/+5213344703129" },
-                { title: "Blog", url: "https://scatterscience.com" },
+                { title: "Blog", url: "https://joeltrincado.com" },
             ]
         },
 
