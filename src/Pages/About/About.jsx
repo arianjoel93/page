@@ -1,11 +1,12 @@
 import "./About.scss"
-import frontend from "../../assets/frontend.png"
+import congreso from "../../assets/congreso.jpeg"
 import profile from "../../assets/meet.jpeg"
 import js from "../../assets/js.png"
 import ia from "../../assets/ia.png"
-import client_0 from "../../assets/WhatsApp Image 2024-04-27 at 23.02.21.jpeg"
-import client_1 from "../../assets/WhatsApp Image 2024-04-27 at 23.07.36.jpeg"
-import client_2 from "../../assets/WhatsApp Image 2024-04-27 at 23.07.55.jpeg"
+import client_0 from "../../assets/meet.jpeg"
+import client_1 from "../../assets/WhatsApp Image 2024-04-27 at 23.02.21.jpeg"
+import client_2 from "../../assets/WhatsApp Image 2024-04-27 at 23.07.36.jpeg"
+import client_3 from "../../assets/WhatsApp Image 2024-04-27 at 23.07.55.jpeg"
 import { useEffect } from "react"
 import { Link } from "react-router-dom"
 import HelmetComponents from "../../components/molecules/Helmet/HelmetComponents"
@@ -15,6 +16,7 @@ const About = () => {
         { id: 0, img: client_0, alt: "client_0" },
         { id: 1, img: client_1, alt: "client_1" },
         { id: 2, img: client_2, alt: "client_2" },
+        { id: 3, img: client_3, alt: "client_3" },
     ]
 
     useEffect(() => {
@@ -73,17 +75,22 @@ const About = () => {
                     </div>
                     <img src={ia} alt="frontend" loading="lazy" />
                 </div>
-                <div className="end_section container">
-                    <div className="info">
-                        <h2>Habilidades</h2>
-                        <p>También abarco herramientas como Tailwind CSS, MySQL,
-                            entre otras, lo que me permite diseñar y desarrollar aplicaciones web de alta calidad y rendimiento.
-                            Estoy comprometido con la mejora continua y el aprendizaje constante, siempre en busca de nuevos
-                            desafíos que me permitan expandir mi expertise y aportar valor a cada proyecto en el que me involucro.</p>
+                <div className="container">
+                    <div className="section_about_2">
+                        <img src={congreso} alt="frontend" loading="lazy" />
+                        <div className="info">
+                            <h2>Eventos</h2>
+                            <p>
+                            Durante mi trayectoria como desarrollador, he tenido el privilegio de ser 
+                            invitado a participar en congresos y eventos de carácter internacional por 
+                            diversos clientes. Estas oportunidades no solo han ampliado mi red de contactos, 
+                            sino que también me han permitido mantenerme actualizado sobre las últimas 
+                            tendencias y avances en el mundo de la tecnología. Estar presente en estos 
+                            eventos me ha brindado una invaluable experiencia y me ha impulsado a seguir 
+                            creciendo y mejorando como profesional.
+                            </p>
+                        </div>
                     </div>
-                    <Link to="https://scatterscience.com/cursos">
-                        <button>Contáctame</button>
-                    </Link>
                 </div>
                 <div className="container_section_end">
                     <div className="end_section_2 container">
@@ -96,6 +103,18 @@ const About = () => {
                             })}
                         </div>
                     </div>
+                </div>
+                <div className="end_section container">
+                    <div className="info">
+                        <h2>Otras habilidades</h2>
+                        <p>También abarco herramientas como Tailwind CSS, MySQL,
+                            entre otras, lo que me permite diseñar y desarrollar aplicaciones web de alta calidad y rendimiento.
+                            Estoy comprometido con la mejora continua y el aprendizaje constante, siempre en busca de nuevos
+                            desafíos que me permitan expandir mi expertise y aportar valor a cada proyecto en el que me involucro.</p>
+                    </div>
+                    <Link to="https://scatterscience.com/cursos">
+                        <button>Contáctame</button>
+                    </Link>
                 </div>
             </div>
         </>
