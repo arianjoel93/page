@@ -25,14 +25,14 @@ const Quote = () => {
                         </div>
                     </div>
                     <div className="img_coffee">
-                        <img loading="lazy" src={quote} alt="sitio" />
+                        <img loading="lazy" src={quote} alt="banner-cotizador" />
                     </div>
                 </section>
             </div>
             <div className="c_newPack_2">
                 <section className="newPack container">
                     <div className="img_coffee">
-                        <img loading="lazy" src={banner} alt="sitio" />
+                        <img loading="lazy" src={banner} alt="software" />
                     </div>
                     <div className="content">
                         <div className="c_int">

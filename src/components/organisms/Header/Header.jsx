@@ -6,7 +6,7 @@ import facebook from "../../../assets/icons/facebook.svg"
 import instagram from "../../../assets/icons/instagram.svg"
 import github from "../../../assets/icons/github.svg"
 import linkedIn from "../../../assets/icons/linkedIn.svg"
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Maps from "../Maps/Maps";
 import { Sidebar } from 'primereact/sidebar';
 
@@ -27,9 +27,11 @@ const Header = () => {
         { name: "Plantillas", subTitle: "Página de inicio", url: "/plantillas" },
         { name: "Blog", subTitle: "Página de inicio", url: "https://joeltrincado.com.com" },
     ]
+    const navigate = useNavigate()
 
     const scrollToMyRef = (id) => {
-        document.getElementById(`${id}`)?.scrollIntoView({ behavior: "smooth" });
+        navigate('/plantillas')
+        
 
     };
     const data = [
@@ -64,10 +66,10 @@ const Header = () => {
                     {screen > 768 &&
                         <button className="btn_search" onClick={() => scrollToMyRef("projects")}>
                             <i className="pi pi-eye" />
-                            <p>Ver proyectos</p>
+                            <p>Ver plantillas</p>
                         </button>}
                     <Link className="logo" to={"/"}>
-                        <img src={logo} />
+                        <img src={logo} alt="logo"/>
                         <p>Joel Trincado</p>
                     </Link>
                     {screen > 768 &&
