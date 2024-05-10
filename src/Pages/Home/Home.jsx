@@ -53,7 +53,7 @@ const Home = () => {
 
     return (
         <>
-            <HelmetComponents description={"Somos expertos en diseño y desarrollo de sitios web que destacan. Desde páginas informativas hasta tiendas en línea, creamos experiencias digitales únicas y funcionales para tu negocio."} keywords={"precio sitio web, desarrollo freelancer, desarrollo de sitios web"} subtitle={"Inicio"}></HelmetComponents>
+            <HelmetComponents  subtitle={"Inicio"}></HelmetComponents>
             <div className='Home'>
                 <div className="carouselHome Container">
                     <CarouselComponent />

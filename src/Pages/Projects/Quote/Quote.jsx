@@ -7,7 +7,7 @@ import HelmetComponents from "../../../components/molecules/Helmet/HelmetCompone
 const Quote = () => {
     return (
         <>
-        <HelmetComponents subtitle={"Proyecto cotizador"}></HelmetComponents>
+        <HelmetComponents description={"Aplicaciones de escritorio con python. Desarrollo de aplicaciones de Windows con el framework flet de Flutter para Python."} keywords={"aplicaciones de escritorio, desarrollo con python, qué es flet"} subtitle={"Proyecto cotizador"}></HelmetComponents>
         <div className="Quote">
             <div className="c_newPack">
                 <section className="newPack container">

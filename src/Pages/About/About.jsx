@@ -29,7 +29,7 @@ const About = () => {
     }, [])
     return (
         <>
-            <HelmetComponents description={"Desarrollador web apasionado con amplia experiencia en diseño y desarrollo de sitios web. Conóceme más sobre mí y mi trabajo en el fascinante mundo del desarrollo web."} keywords={"qué es un sitio web, Trabajador autónomo, sobre mi"} subtitle={"Sobre mi"}></HelmetComponents>
+            <HelmetComponents description={"Desarrollador web apasionado con amplia experiencia en diseño y desarrollo de sitios web. Conóceme más sobre mí y mi trabajo en el fascinante mundo del desarrollo web."} keywords={"qué es un sitio web, trabajador autónomo, desarrollador web freelancer"} subtitle={"Sobre mi"}></HelmetComponents>
             <div className='About' id="about">
                 <div className="section_about">
                     <div className="info">
