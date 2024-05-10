@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import "./Footer.scss"
 import { InputText } from 'primereact/inputtext';
 import logo from "../../../assets/logo.png"
+import qr from "../../../assets/qrcode-inicio.png"
 import { useState } from "react";
 
 
@@ -57,6 +58,7 @@ const Footer = () => {
                     <img src={logo} alt="logo" loading="lazy" />
                     <p>Joel Trincado</p>
                 </Link>
+                <img className="qr" src={qr} alt="qr-blog" />
             </div>
         </footer>
     )
