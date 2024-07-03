@@ -25,7 +25,7 @@ const Header = () => {
         { name: "Inicio", subTitle: "Página de inicio", url: "/" },
         { name: "Sobre mi", subTitle: "Página de inicio", url: "/sobre-mi" },
         { name: "Plantillas", subTitle: "Página de inicio", url: "/plantillas" },
-        { name: "Blog", subTitle: "Página de inicio", url: "https://joeltrincado.com" },
+        { name: "Blog", subTitle: "Página de inicio", url: "https://scatterscience.com" },
     ]
     const navigate = useNavigate()
 
