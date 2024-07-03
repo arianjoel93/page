@@ -8,7 +8,7 @@ import focus from "../../assets/focus.png"
 import ia from "../../assets/ia.gif"
 import sitio from "../../assets/sitio_web.png"
 import view from "../../assets/icons/view.svg"
-
+import ili from "../../assets/sitio.png"
 import landing from "../../assets/landing.png"
 import lineal from "../../assets/lineal.png"
 import estadistica from "../../assets/estadistica.png"
@@ -27,14 +27,13 @@ import Whatsapp from "../../components/molecules/WhatsApp/WhatsApp"
 import { Link } from "react-router-dom"
 import CarouselServices from "../../components/organisms/CarouselServices/CarouselServices"
 import HelmetComponents from "../../components/molecules/Helmet/HelmetComponents"
-
 const Home = () => {
 
     const screen = window.screen.width
     const categories = [
+        { title: "Dra. Iliannis Roa (En construcción)", image: ili, imgAlt: "image_ili", url: "https://iliannisroa.com/" },
         { title: "CodeBuilders", image: codebuilders, imgAlt: "image_codeBuilders", url: "https://businesscodebuilders.com/" },
         { title: "Blog de desarrollo Web", image: blog, imgAlt: "image_blog", url: "https://scatterscience.com/" },
-        // { title: "Dueñas construcción", image: duenas, imgAlt: "image_duenas", url: "https://duenasconstrucciones.com/" },
         { title: "Focus Editorial", image: focus, imgAlt: "image_focus", url: "https://focusglobalaccs.com/" },
         { title: "Revista Temachtiani", image: revista, imgAlt: "image_temachtiani", url: "https://revistatemachtiani.net/" },
         { title: "Cotizador de envíos", image: cotizador, imgAlt: "image_cotizador", url: "/proyectos/cotizador" },
@@ -42,7 +41,7 @@ const Home = () => {
     const productSend = [
         { title: "Logos", image: logo, imgAlt: "logo", price: 300, message: "Quiero saber más sobre la creación de logos", },
         { title: "Páginas informativas", image: landing, imgAlt: "landing", price: 3000, message: "Quiero saber más sobre las páginas informativas", view: "https://cornflowerblue-wallaby-596168.builder-preview.com/" },
-        { title: "Modelos de regresión con IA", image: lineal, imgAlt: "lineal", price: 6500, message: "Quiero una consulta gratis sobre Modelos de Regreción con IA", view: "https://joeltrincado.com/10-pasos-para-crear-un-modelo-de-regresion-lineal-exitoso-usando-la-ia-de-python" },
+        { title: "Modelos de regresión con IA", image: lineal, imgAlt: "lineal", price: 6500, message: "Quiero una consulta gratis sobre Modelos de Regreción con IA", view: "https://scatterscience.com/10-pasos-para-crear-un-modelo-de-regresion-lineal-exitoso-usando-la-ia-de-python" },
         { title: "eCommerce", image: estadistica, imgAlt: "estadistica", price: 15000, message: "Quiero una consulta grátis sobre estadística inferencial", view: "https://lavenderblush-pigeon-326114.builder-preview.com" },
         { title: "Blogs", image: blogs, imgAlt: "blogs", price: 3000, message: " Quiero una consulta gratis para construir mi blog", view: "https://papayawhip-kudu-957129.builder-preview.com/" },
         { title: "Aplicaciones de utilidades", image: utilidades, imgAlt: "utilidades", price: 6000, message: "Quiero una consulta gratis sobre una palicación", view: "https://learn.microsoft.com/es-es/windows-app/overview" },
@@ -146,7 +145,7 @@ const Home = () => {
                                         con IA sean una opción atractiva en una variedad de campos, permitiendo tomar
                                         decisiones informadas y eficientes basadas en análisis avanzados de datos.
                                     </p>
-                                    <Link target="_blank" to={'https://joeltrincado.com/programacion'}>Saber más de Machine Learning
+                                    <Link target="_blank" to={'https://scatterscience.com/programacion'}>Saber más de Machine Learning
                                         {"   "}<i className="pi pi-arrow-right" />
                                     </Link>
                                 </div>
@@ -157,7 +156,7 @@ const Home = () => {
                         <section className="newSection container">
                             <h3>¡Desbloquea el poder de la programación con Python! </h3>
                             <p>Comienza con una tutoría personalizada y al mejor precio.</p>
-                            <Link to="https://joeltrincado.com/consultas-y-tutorias">
+                            <Link to="https://scatterscience.com/consultas-y-tutorias">
                                 <button>Ir a consultas y tutorías</button>
                             </Link>
                         </section>
