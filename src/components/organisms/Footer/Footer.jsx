@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import "./Footer.scss"
 import { InputText } from 'primereact/inputtext';
 import logo from "../../../assets/logo.png"
+import qr from "../../../assets/qrcode-inicio.png"
 import { useState } from "react";
 
 
@@ -18,9 +19,9 @@ const Footer = () => {
             link: [
 
                 { title: "Sobre mí", url: "/sobre-mi" },
-                { title: "Contáctame", url: "https://joeltrincado.com/contacto" },
+                { title: "Contáctame", url: "https://scatterscience.com/contacto" },
                 // { title: "Próximos servicios", url: "https://wa.me/+5213344703129" },
-                { title: "Blog", url: "https://joeltrincado.com" },
+                { title: "Blog", url: "https://scatterscience.com" },
             ]
         },
 
@@ -57,6 +58,7 @@ const Footer = () => {
                     <img src={logo} alt="logo" loading="lazy" />
                     <p>Joel Trincado</p>
                 </Link>
+                <img className="qr" src={qr} alt="qr-blog" />
             </div>
         </footer>
     )

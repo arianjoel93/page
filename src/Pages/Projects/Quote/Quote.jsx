@@ -7,7 +7,7 @@ import HelmetComponents from "../../../components/molecules/Helmet/HelmetCompone
 const Quote = () => {
     return (
         <>
-        <HelmetComponents subtitle={"Proyecto cotizador"}></HelmetComponents>
+        <HelmetComponents description={"Aplicaciones de escritorio con python. Desarrollo de aplicaciones de Windows con el framework flet de Flutter para Python."} keywords={"aplicaciones de escritorio, desarrollo con python, qué es flet"} subtitle={"Proyecto cotizador"}></HelmetComponents>
         <div className="Quote">
             <div className="c_newPack">
                 <section className="newPack container">
@@ -25,14 +25,14 @@ const Quote = () => {
                         </div>
                     </div>
                     <div className="img_coffee">
-                        <img loading="lazy" src={quote} alt="sitio" />
+                        <img loading="lazy" src={quote} alt="banner-cotizador" />
                     </div>
                 </section>
             </div>
             <div className="c_newPack_2">
                 <section className="newPack container">
                     <div className="img_coffee">
-                        <img loading="lazy" src={banner} alt="sitio" />
+                        <img loading="lazy" src={banner} alt="software" />
                     </div>
                     <div className="content">
                         <div className="c_int">

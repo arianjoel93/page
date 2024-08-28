@@ -15,8 +15,8 @@ const About = () => {
     const clients_opinions = [
         { id: 0, img: client_0, alt: "client_0" },
         { id: 1, img: client_1, alt: "client_1" },
-        { id: 2, img: client_2, alt: "client_2" },
-        { id: 3, img: client_3, alt: "client_3" },
+        // { id: 2, img: client_2, alt: "client_2" },
+        // { id: 3, img: client_3, alt: "client_3" },
     ]
 
     useEffect(() => {
@@ -29,7 +29,7 @@ const About = () => {
     }, [])
     return (
         <>
-            <HelmetComponents subtitle={"Sobre mi"}></HelmetComponents>
+            <HelmetComponents description={"Desarrollador web apasionado con amplia experiencia en diseño y desarrollo de sitios web. Conóceme más sobre mí y mi trabajo en el fascinante mundo del desarrollo web."} keywords={"qué es un sitio web, trabajador autónomo, desarrollador web freelancer"} subtitle={"Sobre mi"}></HelmetComponents>
             <div className='About' id="about">
                 <div className="section_about">
                     <div className="info">
@@ -112,7 +112,7 @@ const About = () => {
                             Estoy comprometido con la mejora continua y el aprendizaje constante, siempre en busca de nuevos
                             desafíos que me permitan expandir mi expertise y aportar valor a cada proyecto en el que me involucro.</p>
                     </div>
-                    <Link to="https://scatterscience.com/cursos">
+                    <Link to="https://joeltrincado.com/contacto">
                         <button>Contáctame</button>
                     </Link>
                 </div>
