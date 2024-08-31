@@ -66,7 +66,7 @@ const Header = () => {
                     {screen > 768 &&
                         <button className="btn_search" onClick={() => scrollToMyRef("projects")}>
                             <i className="pi pi-eye" />
-                            <p>Ver plantillas</p>
+                            <p>Templates</p>
                         </button>}
                     <Link className="logo" to={"/"}>
                         <img src={logo} alt="logo"/>

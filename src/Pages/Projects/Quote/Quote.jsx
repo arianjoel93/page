@@ -7,53 +7,48 @@ import HelmetComponents from "../../../components/molecules/Helmet/HelmetCompone
 const Quote = () => {
     return (
         <>
-        <HelmetComponents description={"Aplicaciones de escritorio con python. Desarrollo de aplicaciones de Windows con el framework flet de Flutter para Python."} keywords={"aplicaciones de escritorio, desarrollo con python, qué es flet"} subtitle={"Proyecto cotizador"}></HelmetComponents>
-        <div className="Quote">
-            <div className="c_newPack">
-                <section className="newPack container">
-                    <div className="content">
-                        <div className="c_int">
-                            <h1>¿Cómo se desarrolló?</h1>
-                            <p>
-                                El cotizador de envíos es una aplicación ejecutable de windows
-                                desarrollada en Python usando el framework "flet" para Flutter. El proyecto se desarrolló con el fin
-                                de recomendar e importar cotizaciones de envíos por diferentes empresas de paqueterías con el fin
-                                de elegir la opción más viable. En el proyecto se utilizó la "flet" para desarrollar toda la parte visual
-                                de la aplicación y para el manejo de documentos, datos y cálculos se utilizó Pandas. Con el fin de obtener
-                                datos de las paqueterías se utilizó la librería "requests".
-                            </p>
-                        </div>
-                    </div>
-                    <div className="img_coffee">
-                        <img loading="lazy" src={quote} alt="banner-cotizador" />
-                    </div>
-                </section>
-            </div>
-            <div className="c_newPack_2">
-                <section className="newPack container">
-                    <div className="img_coffee">
-                        <img loading="lazy" src={banner} alt="software" />
-                    </div>
-                    <div className="content">
-                        <div className="c_int">
-                            <h1>¿Quiéres cotizar una aplicación o sitio web?</h1>
-                            <p>
-                                Desarrolla al mejor precio tu aplicación, o sitio web, desde un blog, un perfil personal hasta una tienda o plataforma para tu negocio.
-                            </p>
-                            <div className="btns">
-                                <Link to={`https://wa.me/+5213344703129`} target="_blank">
-                                    <button className='QuoteButton'>Cotizar gratis</button>
-                                </Link>
-                                <Link to={`https://scatterscience.com`} target="_blank">
-                                    <button className='LearnButton'>Saber más...</button>
-                                </Link>
+            <HelmetComponents description={"Aplicaciones de escritorio con python. Desarrollo de aplicaciones de Windows con el framework flet de Flutter para Python."} keywords={"aplicaciones de escritorio, desarrollo con python, qué es flet"} subtitle={"Proyecto cotizador"}></HelmetComponents>
+            <div className="Quote">
+                <div className="c_newPack">
+                    <section className="newPack container">
+                        <div className="content">
+                            <div className="c_int">
+                                <h1>How was it developed?</h1>
+                                <p>
+                                    The shipping quote generator is a Windows executable application developed in Python using the "flet" framework for Flutter. The project was developed to recommend and import shipping quotes from different courier companies to choose the most viable option. The "flet" framework was used to develop the entire visual part of the application, while Pandas was used for handling documents, data, and calculations. The "requests" library was used to obtain data from the courier companies.
+                                </p>
                             </div>
                         </div>
-                    </div>
-
-                </section>
+                        <div className="img_coffee">
+                            <img loading="lazy" src={quote} alt="quote-banner" />
+                        </div>
+                    </section>
+                </div>
+                <div className="c_newPack_2">
+                    <section className="newPack container">
+                        <div className="img_coffee">
+                            <img loading="lazy" src={banner} alt="software" />
+                        </div>
+                        <div className="content">
+                            <div className="c_int">
+                                <h1>Want to get a quote for an application or website?</h1>
+                                <p>
+                                    Develop your application or website at the best price, whether it's a blog, a personal profile, or a store or platform for your business.
+                                </p>
+                                <div className="btns">
+                                    <Link to={`https://wa.me/+5213344703129`} target="_blank">
+                                        <button className='QuoteButton'>Get a free quote</button>
+                                    </Link>
+                                    <Link to={`https://scatterscience.com`} target="_blank">
+                                        <button className='LearnButton'>Learn more...</button>
+                                    </Link>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
             </div>
-        </div>
+
         </>
     )
 }

@@ -62,14 +62,15 @@ const TemplatesExample = () => {
 
     return (
         <>
-        <HelmetComponents subtitle={"Plantillas"}></HelmetComponents>
+            <HelmetComponents subtitle={"Plantillas"}></HelmetComponents>
             <div className="TemplatesExample container">
-                <h1>Ejemplos de plantillas</h1>
+                <h1>Template Examples</h1>
                 <div className="containerTemplates">
                     <Galleria value={images} responsiveOptions={responsiveOptions} numVisible={5} style={{ maxWidth: '1080px' }}
                         item={itemTemplate} thumbnail={thumbnailTemplate} />
                 </div>
             </div>
+
         </>
     )
 }

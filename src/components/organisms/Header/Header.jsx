@@ -10,34 +10,32 @@ import { Link, useNavigate } from "react-router-dom";
 import Maps from "../Maps/Maps";
 import { Sidebar } from 'primereact/sidebar';
 
-
-
 const Header = () => {
-    const screen = window.screen.width
+    const screen = window.screen.width;
     const icons = [
         { name: "facebook", image: facebook, alt: "facebook", url: "https://www.facebook.com/profile.php?id=61550516717822" },
         { name: "instagram", image: instagram, alt: "instagram", url: "https://www.instagram.com/scatter.science?igsh=MWJ1N3h4bmNxODlpaA==" },
         { name: "github", image: github, alt: "github", url: "https://github.com/arianjoel93" },
         { name: "linkedIn", image: linkedIn, alt: "linkedIn", url: "https://www.linkedin.com/in/joel-ari%C3%A1n-tv" },
-    ]
+    ];
 
     const navOptions = [
-        { name: "Inicio", subTitle: "Página de inicio", url: "/" },
-        { name: "Sobre mi", subTitle: "Página de inicio", url: "/sobre-mi" },
-        { name: "Plantillas", subTitle: "Página de inicio", url: "/plantillas" },
-        { name: "Blog", subTitle: "Página de inicio", url: "https://scatterscience.com" },
-    ]
-    const navigate = useNavigate()
+        { name: "Home", subTitle: "Home Page", url: "/" },
+        { name: "About Me", subTitle: "About Me Page", url: "/about-me" },
+        { name: "Templates", subTitle: "Templates Page", url: "/templates" },
+        { name: "Blog", subTitle: "Blog Page", url: "https://scatterscience.com" },
+    ];
+
+    const navigate = useNavigate();
 
     const scrollToMyRef = (id) => {
-        navigate('/plantillas')
-        
-
+        navigate('/templates');
     };
-    const data = [
-        { id: 0, contry: "México", address: "", location: [20.676667, -103.347500] },
 
-    ]
+    const data = [
+        { id: 0, country: "Mexico", address: "", location: [20.676667, -103.347500] },
+    ];
+
     const [visible, setVisible] = useState(false);
 
     return (
@@ -53,12 +51,12 @@ const Header = () => {
                                 <Link key={index} to={_?.url} target="_blank">
                                     <img src={_.image} alt={_.alt} />
                                 </Link>
-                            )
+                            );
                         })}
                     </div>
                     <button className="location_map" onClick={() => setVisible(true)}>
                         <img src={marker} alt="marker" />
-                        <p>Guadalajara, México</p>
+                        <p>Guadalajara, Mexico</p>
                     </button>
                 </div>
 
@@ -66,17 +64,17 @@ const Header = () => {
                     {screen > 768 &&
                         <button className="btn_search" onClick={() => scrollToMyRef("projects")}>
                             <i className="pi pi-eye" />
-                            <p>Ver plantillas</p>
+                            <p>Templates</p>
                         </button>}
                     <Link className="logo" to={"/"}>
-                        <img src={logo} alt="logo"/>
+                        <img src={logo} alt="logo" />
                         <p>Joel Trincado</p>
                     </Link>
                     {screen > 768 &&
                         <Link to='https://wa.me/+5213344703129' target="_blank">
                             <button className="btn_whatsapp">
                                 <i className="pi pi-whatsapp" />
-                                <p>Contactar</p>
+                                <p>Contact</p>
                             </button>
                         </Link>
                     }
@@ -88,14 +86,13 @@ const Header = () => {
                                 <Link key={index} to={_?.url}>
                                     {_.name}
                                 </Link>
-                            )
+                            );
                         })}
                     </nav>
-
                 </div>
             </div>
         </header>
-    )
-}
+    );
+};
 
-export default Header
+export default Header;

@@ -26,7 +26,7 @@ const MainRouter = () => {
                                 }
                             />
                             <Route
-                                path='/sobre-mi'
+                                path='/about-me'
                                 element={
                                     <Suspense>
                                         <About></About>
@@ -34,7 +34,7 @@ const MainRouter = () => {
                                 }
                             />
                             <Route
-                                path='/proyectos/cotizador'
+                                path='/projects/quote-calculator'
                                 element={
                                     <Suspense>
                                         <Quote></Quote>
@@ -42,7 +42,7 @@ const MainRouter = () => {
                                 }
                             />
                             <Route
-                                path='/plantillas'
+                                path='/templates'
                                 element={
                                     <Suspense>
                                         <TemplatesExample></TemplatesExample>

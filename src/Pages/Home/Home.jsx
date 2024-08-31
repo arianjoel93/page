@@ -1,29 +1,26 @@
 import "./Home.scss"
 import CarouselComponent from "../../components/organisms/Carousel/CarouselComponent"
-import revista from "../../assets//revista.png"
-import cotizador from "../../assets/cotizador.png"
+import magazine from "../../assets//revista.png"
+import quoteCalculator from "../../assets/cotizador.png"
 import codebuilders from "../../assets/codebuilders.png"
 import logo from "../../assets/logo.png"
 import ili from "../../assets/sitio.png"
-import ia from "../../assets/ia.gif"
-import sitio from "../../assets/sitio_web.png"
+import ai from "../../assets/ia.gif"
+import website from "../../assets/sitio_web.png"
 import view from "../../assets/icons/view.svg"
 import euceda from "../../assets/euceda.png"
 import mexcantina from "../../assets/mexcantina.png"
 import landing from "../../assets/landing.png"
-import lineal from "../../assets/lineal.png"
-import estadistica from "../../assets/estadistica.png"
+import linear from "../../assets/lineal.png"
+import statistics from "../../assets/estadistica.png"
 import blogs from "../../assets/blogs.png"
-import utilidades from "../../assets/utilidades.png"
+import utilities from "../../assets/utilidades.png"
 import hosting from "../../assets/hosting.png"
 import python from "../../assets/python.png"
-import logistica from "../../assets/logistica.png"
+import logistics from "../../assets/logistica.png"
 import blog from "../../assets/banner-blog.png"
 import codesi from "../../assets/codesi.png"
 import Whatsapp from "../../components/molecules/WhatsApp/WhatsApp"
-
-
-
 
 import { Link } from "react-router-dom"
 import CarouselServices from "../../components/organisms/CarouselServices/CarouselServices"
@@ -32,81 +29,67 @@ const Home = () => {
 
     const screen = window.screen.width
     const categories = [
-        { title: "Dra. Iliannis Roa (En construcción)", image: ili, imgAlt: "image_ili", url: "https://iliannisroa.com/" },
+        { title: "Dr. Iliannis Roa (Under Construction)", image: ili, imgAlt: "image_ili", url: "https://iliannisroa.com/" },
         { title: "CodeBuilders", image: codebuilders, imgAlt: "image_codeBuilders", url: "https://businesscodebuilders.com/" },
-        { title: "Blog de desarrollo Web", image: blog, imgAlt: "image_blog", url: "https://scatterscience.com/" },
+        { title: "Web Development Blog", image: blog, imgAlt: "image_blog", url: "https://scatterscience.com/" },
         { title: "Euceda Construction", image: euceda, imgAlt: "image_euceda", url: "https://eucedaconstruction.com/" },
         { title: "Mex Cantina", image: mexcantina, imgAlt: "image_mexcantina", url: "https://mex-cantina.com/" },
-        { title: "Revista Temachtiani", image: revista, imgAlt: "image_temachtiani", url: "https://revistatemachtiani.net/" },
-        { title: "Cotizador de envíos", image: cotizador, imgAlt: "image_cotizador", url: "/proyectos/cotizador" },
+        { title: "Temachtiani Magazine", image: magazine, imgAlt: "image_temachtiani", url: "https://revistatemachtiani.net/" },
+        { title: "Shipping Quote Calculator", image: quoteCalculator, imgAlt: "image_quoteCalculator", url: "/projects/quote-calculator" },
     ]
     const productSend = [
-        { title: "Logos", image: logo, imgAlt: "logo", price: 300, message: "Quiero saber más sobre la creación de logos", },
-        { title: "Páginas informativas", image: landing, imgAlt: "landing", price: 3000, message: "Quiero saber más sobre las páginas informativas", view: "https://cornflowerblue-wallaby-596168.builder-preview.com/" },
-        { title: "Modelos de regresión con IA", image: lineal, imgAlt: "lineal", price: 6500, message: "Quiero una consulta gratis sobre Modelos de Regreción con IA", view: "https://scatterscience.com/10-pasos-para-crear-un-modelo-de-regresion-lineal-exitoso-usando-la-ia-de-python" },
-        { title: "eCommerce", image: estadistica, imgAlt: "estadistica", price: 15000, message: "Quiero una consulta grátis sobre estadística inferencial", view: "https://lavenderblush-pigeon-326114.builder-preview.com" },
-        { title: "Blogs", image: blogs, imgAlt: "blogs", price: 3000, message: " Quiero una consulta gratis para construir mi blog", view: "https://papayawhip-kudu-957129.builder-preview.com/" },
-        { title: "Aplicaciones de utilidades", image: utilidades, imgAlt: "utilidades", price: 6000, message: "Quiero una consulta gratis sobre una palicación", view: "https://learn.microsoft.com/es-es/windows-app/overview" },
-        { title: "Tutorias de programación", image: python, imgAlt: "python", price: 250, message: "Quiero información sobre las consultas de Python", view: "https://aws.amazon.com/es/what-is/python/" },
-        { title: "Hosting y dominios", image: hosting, imgAlt: "hosting", price: 500, message: "Quiero información sobre hosting y dominios", view: "https://www.hostinger.es/tutoriales/hosting-y-dominio/" },
-        { title: "Modelos de regresión logística", image: logistica, imgAlt: "logistica", price: 6000, message: "Quiero información sobre los modelos de regreción logística", view: "https://www.ibm.com/es-es/topics/logistic-regression" },
+        { title: "Logos", image: logo, imgAlt: "logo", price: 300, message: "I want to know more about logo creation", },
+        { title: "Informative Pages", image: landing, imgAlt: "landing", price: 3000, message: "I want to know more about informative pages", view: "https://cornflowerblue-wallaby-596168.builder-preview.com/" },
+        { title: "Regression Models with AI", image: linear, imgAlt: "linear", price: 6500, message: "I want a free consultation about Regression Models with AI", view: "https://scatterscience.com/10-pasos-para-crear-un-modelo-de-regresion-lineal-exitoso-usando-la-ia-de-python" },
+        { title: "eCommerce", image: statistics, imgAlt: "statistics", price: 15000, message: "I want a free consultation about inferential statistics", view: "https://lavenderblush-pigeon-326114.builder-preview.com" },
+        { title: "Blogs", image: blogs, imgAlt: "blogs", price: 3000, message: "I want a free consultation to build my blog", view: "https://papayawhip-kudu-957129.builder-preview.com/" },
+        { title: "Utility Applications", image: utilities, imgAlt: "utilities", price: 6000, message: "I want a free consultation about an application", view: "https://learn.microsoft.com/en-us/windows-app/overview" },
+        { title: "Programming Tutorials", image: python, imgAlt: "python", price: 250, message: "I want information about Python consultations", view: "https://aws.amazon.com/what-is/python/" },
+        { title: "Hosting and Domains", image: hosting, imgAlt: "hosting", price: 500, message: "I want information about hosting and domains", view: "https://www.hostinger.com/tutorials/what-is-hosting-and-domain/" },
+        { title: "Logistic Regression Models", image: logistics, imgAlt: "logistics", price: 6000, message: "I want information about logistic regression models", view: "https://www.ibm.com/topics/logistic-regression" },
     ]
 
     return (
         <>
-            <HelmetComponents  subtitle={"Inicio"}></HelmetComponents>
+            <HelmetComponents subtitle={"Home"}></HelmetComponents>
             <div className='Home'>
                 <div className="carouselHome Container">
                     <CarouselComponent />
                 </div>
                 <div className="mainProducts" id="projects">
                     <fieldset className="container">
-                        <legend>Últimos proyectos</legend>
+                        <legend>Latest Projects</legend>
                     </fieldset>
-                    {screen > 1280 ?
-                        <div className="c_products container">
-                            {categories.map((_, index) => {
-                                return (
-                                    <Link to={_?.url} key={index} className="Product" target="_blank">
-                                        <div className="cardProduct">
-                                            <div className="c_cardProduct">
-                                                <img src={_.image} alt={_.imgAlt} loading="lazy" />
-                                            </div>
-                                        </div>
-                                        <h2>{_.title}</h2>
-                                    </Link>
-                                )
-                            })}
-                        </div> :
-                        <CarouselServices categories={categories}></CarouselServices>}
+                    
+                        <CarouselServices categories={categories}></CarouselServices>
                     <div className="c_newPack">
                         <section className="newPack container">
                             <div className="content">
                                 <div className="c_int">
-                                    <h1>¿Por qué la necesidad de un sitio web?</h1>
+                                    <h1>Why the Need for a Website?</h1>
                                     <p>
-                                        Contar con un sitio web es esencial por varias razones.
-                                        Un sitio web proporciona presencia en línea que
-                                        permite a las personas y empresas ser encontradas fácilmente por clientes
-                                        potenciales en cualquier momento y desde cualquier lugar. Esto aumenta la
-                                        visibilidad y la accesibilidad, lo que puede traducirse en un mayor alcance y
-                                        oportunidades de negocio.
+                                        Having a website is essential for several reasons.
+                                        A website provides an online presence that
+                                        allows individuals and businesses to be easily found by potential customers
+                                        anytime and anywhere. This increases
+                                        visibility and accessibility, which can translate into greater reach and
+                                        business opportunities.
                                     </p>
-                                    <Link target="_blank" to={'https://scatterscience.com/la-necesidad-de-un-sitio-web'}>
-                                        Saber más de desarrollo web
+                                    <Link target="_blank" to={'https://scatterscience.com/the-need-for-a-website'}>
+                                        Learn more about web development
                                         {"   "}<i className="pi pi-arrow-right" />
                                     </Link>
                                 </div>
                             </div>
                             <div className="img_coffee">
-                                <img loading="lazy" src={sitio} alt="sitios-web" />
+                                <img loading="lazy" src={website} alt="websites" />
                             </div>
                         </section>
                     </div>
-                    <fieldset className="container">
-                        <legend>Servicios</legend>
-                    </fieldset>
-                    <section className="section_1 container">
+                    {/* <fieldset className="container">
+                        <legend>Services</legend>
+                    </fieldset> */}
+                    {/* <section className="section_1 container">
                         {productSend?.map((_, index) => {
                             return (
                                 <div className="cardProductMain" key={index}>
@@ -114,7 +97,7 @@ const Home = () => {
                                         <div class="img-wrapper">
                                             <img src={_.image} alt={_.imgAlt} />
                                             <Link to={`https://wa.me/+5213344703129?text=${_?.message}`} target="_blank">
-                                                <h2>Consulta tu idea</h2>
+                                                <h2>Consult your idea</h2>
                                             </Link>
                                             {view ?
                                             <Link to={_.view} target="_blank">
@@ -128,59 +111,59 @@ const Home = () => {
                                         </div>
                                     </div>
                                     <h3>{_.title}</h3>
-                                    <h3 style={{ color: '#E1927F' }}> A partir de ${Number(_.price).toFixed(2)}</h3>
+                                    <h3 style={{ color: '#E1927F' }}> Starting at ${Number(_.price).toFixed(2)}</h3>
                                 </div>
                             )
                         })}
-                    </section>
-                    <div className="c_newPack">
+                    </section> */}
+                    <div className="c_newPack_2">
                         <section className="newPack container">
                             <div className="img_coffee">
-                                <img loading="lazy" src={ia} alt="ia" />
+                                <img loading="lazy" src={ai} alt="ai" />
                             </div>
                             <div className="content">
                                 <div className="c_int">
-                                    <h1>¿Por qué un modelo de predicción con Machine Learning?</h1>
-                                    <p>Con la IA tienes mayor precisión al analizar datos complejos,
-                                        rapidez en la generación de predicciones en tiempo real, escalabilidad
-                                        para manejar grandes volúmenes de datos, etc.Estas características hacen que los modelos de predicción
-                                        con IA sean una opción atractiva en una variedad de campos, permitiendo tomar
-                                        decisiones informadas y eficientes basadas en análisis avanzados de datos.
+                                    <h1>Why a Prediction Model with Machine Learning?</h1>
+                                    <p>With AI, you have greater accuracy in analyzing complex data,
+                                        speed in generating real-time predictions, scalability
+                                        to handle large volumes of data, etc. These features make predictive models
+                                        with AI an attractive option in a variety of fields, allowing
+                                        informed and efficient decisions based on advanced data analysis.
                                     </p>
-                                    <Link target="_blank" to={'https://scatterscience.com/programacion'}>Saber más de Machine Learning
+                                    <Link target="_blank" to={'https://scatterscience.com/programming'}>Learn more about Machine Learning
                                         {"   "}<i className="pi pi-arrow-right" />
                                     </Link>
                                 </div>
                             </div>
                         </section>
                     </div>
-                    <div className="c_newPack_2">
+                    <div className="c_newPack">
                         <section className="newSection container">
-                            <h3>¡Desbloquea el poder de la programación con Python! </h3>
-                            <p>Comienza con una tutoría personalizada y al mejor precio.</p>
-                            <Link to="https://scatterscience.com/consultas-y-tutorias">
-                                <button>Ir a consultas y tutorías</button>
+                            <h3>Unlock the power of programming with Python! </h3>
+                            <p>Start with a personalized tutorial at the best price.</p>
+                            <Link to="https://scatterscience.com/consultations-and-tutorials">
+                                <button>Go to consultations and tutorials</button>
                             </Link>
                         </section>
 
                     </div>
-                    <div className="c_newPack_3">
+                    <div className="c_newPack_2">
                         <section className="newSection_2">
-                            <p>COLABORADORES</p>
+                            <p>COLLABORATORS</p>
                             <img src={codesi} alt="codesi" />
-                            <h2>¿Qué es CODESI?</h2>
+                            <h2>What is CODESI?</h2>
                             <h3>
-                                CODESI es una organización formada por un grupo de jóvenes
-                                interdisciplinarios e ingenieros en informática para la enseñanza de
-                                nuevas tecnologías computacionales; contamos con personal ampliamente
-                                especializado y certificado en cada una de nuestras áreas.
+                                CODESI is an organization formed by a group of young
+                                interdisciplinary and computer engineering professionals for teaching
+                                new computational technologies; we have highly specialized and certified personnel
+                                in each of our areas.
                             </h3>
-                            <h3>Nos desarrollamos con base al uso de las tecnologías de información la cual
-                                esta principalmente dirigida a jóvenes y adultos que desean ampliar sus
-                                saberes en estas áreas, así como incrementar sus conocimientos y ser más
-                                competitivos laboralmente.</h3>
+                            <h3>We develop based on the use of information technologies which
+                                is primarily aimed at young people and adults who wish to expand their
+                                knowledge in these areas, as well as increase their knowledge and be more
+                                competitive in the labor market.</h3>
                             <Link to="https://www.grupocodesi.com/" target="_blank">
-                                <button>Cursos de programación</button>
+                                <button>Programming courses</button>
                             </Link>
                         </section>
                     </div>
