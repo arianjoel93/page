@@ -60,8 +60,8 @@ const Home = () => {
                     <fieldset className="container">
                         <legend>Latest Projects</legend>
                     </fieldset>
-                    
-                        <CarouselServices categories={categories}></CarouselServices>
+
+                    <CarouselServices categories={categories}></CarouselServices>
                     <div className="c_newPack">
                         <section className="newPack container">
                             <div className="content">
@@ -123,18 +123,17 @@ const Home = () => {
                             </div>
                             <div className="content">
                                 <div className="c_int">
-                                    <h1>Why a Prediction Model with Machine Learning?</h1>
-                                    <p>With AI, you have greater accuracy in analyzing complex data,
-                                        speed in generating real-time predictions, scalability
-                                        to handle large volumes of data, etc. These features make predictive models
-                                        with AI an attractive option in a variety of fields, allowing
-                                        informed and efficient decisions based on advanced data analysis.
+                                    <h1>Why Choose Our Web Hosting Services?</h1>
+                                    <p>Our hosting solutions offer unmatched reliability, speed, and scalability to support your growing online presence.
+                                        Enjoy seamless performance, 24/7 support, and the flexibility to customize your hosting environment to fit your specific needs.
+                                        Empower your business with a hosting service designed to optimize your website's uptime and security.
                                     </p>
-                                    <Link target="_blank" to={'https://scatterscience.com/programming'}>Learn more about Machine Learning
+                                    <Link target="_blank" to={"https://wa.me/+5213344703129?text=Hello, I would like to know more about the hosting service"}>Request a Quote
                                         {"   "}<i className="pi pi-arrow-right" />
                                     </Link>
                                 </div>
                             </div>
+
                         </section>
                     </div>
                     <div className="c_newPack">
