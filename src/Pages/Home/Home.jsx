@@ -49,7 +49,7 @@ const Home = () => {
 
     return (
         <>
-            <HelmetComponents subtitle={"Home"}></HelmetComponents>
+            <HelmetComponents subtitle={"Home"} description={"Offering top-notch web development services, from custom designs and SEO optimization to e-commerce solutions and mobile-friendly sites. Elevate your online presence today!"} keywords={"E-commerce Solutions, Custom Website Design, Web Development Services"}></HelmetComponents>
             <div className='Home'>
                 <div className="carouselHome Container">
                     <CarouselComponent />
