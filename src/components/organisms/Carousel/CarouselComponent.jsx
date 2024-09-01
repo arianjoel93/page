@@ -6,6 +6,7 @@ import "./CarouselComponent.scss";
 import { Link } from 'react-router-dom';
 
 const CarouselComponent = () => {
+    const screen = window.screen.width;
     const [products] = useState([
         { 
             title: "Professional Website Development", 
@@ -37,7 +38,7 @@ const CarouselComponent = () => {
         return (
             <div className="banner">
                 <div className='left'>
-                    <div className='shadow'></div>
+                    {screen > 768 && <div className='shadow'></div>}
                     <div className='C_LEFT'>
                         <h1>{product.title}</h1>
                         <p>{product.subtitle}</p>

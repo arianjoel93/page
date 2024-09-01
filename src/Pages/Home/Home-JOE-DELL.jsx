@@ -33,7 +33,7 @@ const Home = () => {
     const screen = window.screen.width
     const categories = [
         { title: "CodeBuilders", image: codebuilders, imgAlt: "image_codeBuilders", url: "https://businesscodebuilders.com/" },
-        { title: "Blog de desarrollo Web", image: blog, imgAlt: "image_blog", url: "https://scatterscience.com/" },
+        { title: "Blog de desarrollo Web", image: blog, imgAlt: "image_blog", url: "https://joeltrincado.blog/" },
         // { title: "Dueñas construcción", image: duenas, imgAlt: "image_duenas", url: "https://duenasconstrucciones.com/" },
         { title: "Focus Editorial", image: focus, imgAlt: "image_focus", url: "https://focusglobalaccs.com/" },
         { title: "Revista Temachtiani", image: revista, imgAlt: "image_temachtiani", url: "https://revistatemachtiani.net/" },
@@ -91,7 +91,7 @@ const Home = () => {
                                         visibilidad y la accesibilidad, lo que puede traducirse en un mayor alcance y
                                         oportunidades de negocio.
                                     </p>
-                                    <Link target="_blank" to={'https://scatterscience.com/la-necesidad-de-un-sitio-web'}>
+                                    <Link target="_blank" to={'https://joeltrincado.blog/la-necesidad-de-un-sitio-web'}>
                                         Saber más de desarrollo web
                                         {"   "}<i className="pi pi-arrow-right" />
                                     </Link>

@@ -39,7 +39,7 @@ const Quote = () => {
                                     <Link to={`https://wa.me/+5213344703129`} target="_blank">
                                         <button className='QuoteButton'>Get a free quote</button>
                                     </Link>
-                                    <Link to={`https://scatterscience.com`} target="_blank">
+                                    <Link to={`https://joeltrincado.blog`} target="_blank">
                                         <button className='LearnButton'>Learn more...</button>
                                     </Link>
                                 </div>

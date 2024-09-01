@@ -23,7 +23,7 @@ const Header = () => {
         { name: "Home", subTitle: "Home Page", url: "/" },
         { name: "About Me", subTitle: "About Me Page", url: "/about-me" },
         { name: "Templates", subTitle: "Templates Page", url: "/templates" },
-        { name: "Blog", subTitle: "Blog Page", url: "https://scatterscience.com" },
+        { name: "Blog", subTitle: "Blog Page", url: "https://joeltrincado.blog" },
     ];
 
     const navigate = useNavigate();

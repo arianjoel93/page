@@ -5,9 +5,7 @@ import quoteCalculator from "../../assets/cotizador.png"
 import codebuilders from "../../assets/codebuilders.png"
 import logo from "../../assets/logo.png"
 import ili from "../../assets/sitio.png"
-import ai from "../../assets/ia.gif"
 import website from "../../assets/sitio_web.png"
-import view from "../../assets/icons/view.svg"
 import euceda from "../../assets/euceda.png"
 import mexcantina from "../../assets/mexcantina.png"
 import landing from "../../assets/landing.png"
@@ -31,7 +29,7 @@ const Home = () => {
     const categories = [
         { title: "Dr. Iliannis Roa (Under Construction)", image: ili, imgAlt: "image_ili", url: "https://iliannisroa.com/" },
         { title: "CodeBuilders", image: codebuilders, imgAlt: "image_codeBuilders", url: "https://businesscodebuilders.com/" },
-        { title: "Web Development Blog", image: blog, imgAlt: "image_blog", url: "https://scatterscience.com/" },
+        { title: "Web Development Blog", image: blog, imgAlt: "image_blog", url: "https://joeltrincado.blog/" },
         { title: "Euceda Construction", image: euceda, imgAlt: "image_euceda", url: "https://eucedaconstruction.com/" },
         { title: "Mex Cantina", image: mexcantina, imgAlt: "image_mexcantina", url: "https://mex-cantina.com/" },
         { title: "Temachtiani Magazine", image: magazine, imgAlt: "image_temachtiani", url: "https://revistatemachtiani.net/" },
@@ -40,7 +38,7 @@ const Home = () => {
     const productSend = [
         { title: "Logos", image: logo, imgAlt: "logo", price: 300, message: "I want to know more about logo creation", },
         { title: "Informative Pages", image: landing, imgAlt: "landing", price: 3000, message: "I want to know more about informative pages", view: "https://cornflowerblue-wallaby-596168.builder-preview.com/" },
-        { title: "Regression Models with AI", image: linear, imgAlt: "linear", price: 6500, message: "I want a free consultation about Regression Models with AI", view: "https://scatterscience.com/10-pasos-para-crear-un-modelo-de-regresion-lineal-exitoso-usando-la-ia-de-python" },
+        { title: "Regression Models with AI", image: linear, imgAlt: "linear", price: 6500, message: "I want a free consultation about Regression Models with AI", view: "https://joeltrincado.blog/10-pasos-para-crear-un-modelo-de-regresion-lineal-exitoso-usando-la-ia-de-python" },
         { title: "eCommerce", image: statistics, imgAlt: "statistics", price: 15000, message: "I want a free consultation about inferential statistics", view: "https://lavenderblush-pigeon-326114.builder-preview.com" },
         { title: "Blogs", image: blogs, imgAlt: "blogs", price: 3000, message: "I want a free consultation to build my blog", view: "https://papayawhip-kudu-957129.builder-preview.com/" },
         { title: "Utility Applications", image: utilities, imgAlt: "utilities", price: 6000, message: "I want a free consultation about an application", view: "https://learn.microsoft.com/en-us/windows-app/overview" },
@@ -75,7 +73,7 @@ const Home = () => {
                                         visibility and accessibility, which can translate into greater reach and
                                         business opportunities.
                                     </p>
-                                    <Link target="_blank" to={'https://scatterscience.com/the-need-for-a-website'}>
+                                    <Link target="_blank" to={'https://joeltrincado.blog/the-need-for-a-website'}>
                                         Learn more about web development
                                         {"   "}<i className="pi pi-arrow-right" />
                                     </Link>
@@ -119,7 +117,7 @@ const Home = () => {
                     <div className="c_newPack_2">
                         <section className="newPack container">
                             <div className="img_coffee">
-                                <img loading="lazy" src={ai} alt="ai" />
+                                <img loading="lazy" src={hosting} alt="hosting" />
                             </div>
                             <div className="content">
                                 <div className="c_int">
@@ -140,7 +138,7 @@ const Home = () => {
                         <section className="newSection container">
                             <h3>Unlock the power of programming with Python! </h3>
                             <p>Start with a personalized tutorial at the best price.</p>
-                            <Link to="https://scatterscience.com/consultations-and-tutorials">
+                            <Link to="https://joeltrincado.blog/consultations-and-tutorials">
                                 <button>Go to consultations</button>
                             </Link>
                         </section>

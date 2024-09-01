@@ -94,7 +94,7 @@ const About = () => {
                             I also work with tools like Tailwind CSS, MySQL, among others, which allows me to design and develop high-quality, high-performance web applications. I am committed to continuous improvement and constant learning, always seeking new challenges that allow me to expand my expertise and add value to every project I am involved in.
                         </p>
                     </div>
-                    <Link to="https://joeltrincado.com/contacto">
+                    <Link to="https://joeltrincado.blog/contacto">
                         <button>Contact Me</button>
                     </Link>
                 </div>
