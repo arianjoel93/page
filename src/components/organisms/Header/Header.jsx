@@ -33,7 +33,7 @@ const Header = () => {
     };
 
     const data = [
-        { id: 0, country: "Mexico", address: "", location: [20.676667, -103.347500] },
+        { id: 0, country: "México", address: "", location: [20.676667, -103.347500] },
     ];
 
     const [visible, setVisible] = useState(false);
@@ -56,7 +56,7 @@ const Header = () => {
                     </div>
                     <button className="location_map" onClick={() => setVisible(true)}>
                         <img src={marker} alt="marker" />
-                        <p>Guadalajara, Mexico</p>
+                        <p>Guadalajara, México</p>
                     </button>
                 </div>
 

@@ -141,7 +141,7 @@ const Home = () => {
                             <h3>Unlock the power of programming with Python! </h3>
                             <p>Start with a personalized tutorial at the best price.</p>
                             <Link to="https://scatterscience.com/consultations-and-tutorials">
-                                <button>Go to consultations and tutorials</button>
+                                <button>Go to consultations</button>
                             </Link>
                         </section>
 

@@ -18,6 +18,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        position: relative;
 
         .C_LEFT {
             @media (max-width: 480px) {
@@ -49,7 +50,7 @@
                 height: 50px;
                 font-size: 14px;
                 border: none;
-                background-color: #E1927F;
+                background-color: rgb(225, 146, 127);
                 color: white;
                 font-weight: 600;
 
@@ -61,8 +62,20 @@
 
             }
         }
+        .shadow {
+            position: absolute;
+            width: 70%;
+            height: 86%;
+            top: 5%;
+            left: 10%;
+            background: radial-gradient(circle, rgba(225, 146, 127, 0.683) 0%, rgba(225, 146, 127, 0) 50%);
+            filter: blur(10px) saturate(400%);
+            border-radius: 50%;
+            z-index: -1;
+        }
+        
     }
-
+    
     .right {
         display: grid;
         place-items: center;

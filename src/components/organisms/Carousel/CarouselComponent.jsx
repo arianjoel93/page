@@ -9,7 +9,7 @@ const CarouselComponent = () => {
     const [products] = useState([
         { 
             title: "Professional Website Development", 
-            subtitle: "From corporate sites to online stores, we create unique experiences that drive your business to online success.", 
+            subtitle: "With over 3 years of experience, we create unique experiences that drive your business to online success, from corporate sites to online stores.", 
             image: banner_1, 
             button: "Get a Quote", 
             message: "Hi, I want a quote for a website", 
@@ -37,6 +37,7 @@ const CarouselComponent = () => {
         return (
             <div className="banner">
                 <div className='left'>
+                    <div className='shadow'></div>
                     <div className='C_LEFT'>
                         <h1>{product.title}</h1>
                         <p>{product.subtitle}</p>
