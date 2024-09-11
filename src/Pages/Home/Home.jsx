@@ -74,7 +74,7 @@ const Home = () => {
                                         visibility and accessibility, which can translate into greater reach and
                                         business opportunities.
                                     </p>
-                                    <Link target="_blank" to={'https://joeltrincado.blog/the-need-for-a-website'}>
+                                    <Link target="_blank" to={'https://joeltrincado.blog/ventajas-de-tener-un-sitio-web-profesional-en-2024'}>
                                         Learn more about web development
                                         {"   "}<i className="pi pi-arrow-right" />
                                     </Link>
