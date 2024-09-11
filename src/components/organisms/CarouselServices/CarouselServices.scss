@@ -187,8 +187,10 @@
     }
 
 }
-.carousel-ser .p-carousel-items-content{
+.carousel-ser {
+    .p-carousel-items-content{
      @media (max-width: 480px) {
             height: 200px !important;
         }
+}
 }
