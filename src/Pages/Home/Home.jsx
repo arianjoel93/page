@@ -27,7 +27,7 @@ const Home = () => {
 
     const screen = window.screen.width
     const categories = [
-        { title: "Dr. Iliannis(Under Construction)", image: ili, imgAlt: "image_ili", url: "https://iliannisroa.com/" },
+        { title: "Dr. Iliannis", image: ili, imgAlt: "image_ili", url: "https://iliannisroa.com/" },
         { title: "CodeBuilders", image: codebuilders, imgAlt: "image_codeBuilders", url: "https://businesscodebuilders.com/" },
         { title: "Web Development", image: blog, imgAlt: "image_blog", url: "https://joeltrincado.blog/" },
         { title: "Euceda Construction", image: euceda, imgAlt: "image_euceda", url: "https://eucedaconstruction.com/" },
@@ -58,8 +58,9 @@ const Home = () => {
                     <fieldset className="container">
                         <legend>Latest Projects</legend>
                     </fieldset>
-
+                    <div className="carousel-ser">
                     <CarouselServices categories={categories}></CarouselServices>
+                    </div>
                     <div className="c_newPack">
                         <section className="newPack container">
                             <div className="content">
