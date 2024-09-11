@@ -27,13 +27,13 @@ const Home = () => {
 
     const screen = window.screen.width
     const categories = [
-        { title: "Dr. Iliannis Roa (Under Construction)", image: ili, imgAlt: "image_ili", url: "https://iliannisroa.com/" },
+        { title: "Dr. Iliannis(Under Construction)", image: ili, imgAlt: "image_ili", url: "https://iliannisroa.com/" },
         { title: "CodeBuilders", image: codebuilders, imgAlt: "image_codeBuilders", url: "https://businesscodebuilders.com/" },
-        { title: "Web Development Blog", image: blog, imgAlt: "image_blog", url: "https://joeltrincado.blog/" },
+        { title: "Web Development", image: blog, imgAlt: "image_blog", url: "https://joeltrincado.blog/" },
         { title: "Euceda Construction", image: euceda, imgAlt: "image_euceda", url: "https://eucedaconstruction.com/" },
-        { title: "Mex Cantina", image: mexcantina, imgAlt: "image_mexcantina", url: "https://mex-cantina.com/" },
-        { title: "Temachtiani Magazine", image: magazine, imgAlt: "image_temachtiani", url: "https://revistatemachtiani.net/" },
-        { title: "Shipping Quote Calculator", image: quoteCalculator, imgAlt: "image_quoteCalculator", url: "/projects/quote-calculator" },
+        { title: "MexCantina", image: mexcantina, imgAlt: "image_mexcantina", url: "https://mex-cantina.com/" },
+        { title: "Temachtiani J", image: magazine, imgAlt: "image_temachtiani", url: "https://revistatemachtiani.net/" },
+        { title: "Shipping Quote", image: quoteCalculator, imgAlt: "image_quoteCalculator", url: "/projects/quote-calculator" },
     ]
     const productSend = [
         { title: "Logos", image: logo, imgAlt: "logo", price: 300, message: "I want to know more about logo creation", },
