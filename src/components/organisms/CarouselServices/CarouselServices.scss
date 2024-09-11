@@ -20,6 +20,10 @@
     height: 100%;
    }
 
+
+     @media (max-width: 480px) {
+            height: 200px !important;
+        }
 }
 .p-carousel .p-carousel-indicators .p-carousel-indicator.p-highlight button {
     background-color: transparent;
@@ -187,10 +191,4 @@
     }
 
 }
-.carousel-ser {
-    .p-carousel-items-content{
-     @media (max-width: 480px) {
-            height: 200px !important;
-        }
-}
-}
+
