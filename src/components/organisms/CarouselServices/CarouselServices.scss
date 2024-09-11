@@ -189,6 +189,6 @@
 }
 .p-carousel-items-content{
      @media (max-width: 480px) {
-            height: 200px;
+            height: 200px !important;
         }
 }
