@@ -8,6 +8,7 @@ import ili from "../../assets/sitio.png"
 import website from "../../assets/sitio_web.png"
 import euceda from "../../assets/euceda.png"
 import mexcantina from "../../assets/mexcantina.png"
+import gruas from "../../assets/gruas.png"
 import landing from "../../assets/landing.png"
 import linear from "../../assets/lineal.png"
 import statistics from "../../assets/estadistica.png"
@@ -34,6 +35,7 @@ const Home = () => {
         { title: "Mex Cantina", image: mexcantina, imgAlt: "image_mexcantina", url: "https://mex-cantina.com/" },
         { title: "Temachtiani Magazine", image: magazine, imgAlt: "image_temachtiani", url: "https://revistatemachtiani.net/" },
         { title: "Shipping Quote Calculator", image: quoteCalculator, imgAlt: "image_quoteCalculator", url: "/projects/quote-calculator" },
+        { title: "Apexgrúas", image: gruas, imgAlt: "image_gruas", url: "https://apexgruas.com/" },
     ]
     const productSend = [
         { title: "Logos", image: logo, imgAlt: "logo", price: 300, message: "I want to know more about logo creation", },
