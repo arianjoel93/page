@@ -28,9 +28,9 @@ const Home = () => {
 
     const screen = window.screen.width
     const categories = [
-        { title: "Dr. Iliannis Roa (Under Construction)", image: ili, imgAlt: "image_ili", url: "https://iliannisroa.com/" },
+        { title: "Dr. Iliannis", image: ili, imgAlt: "image_ili", url: "https://iliannisroa.com/" },
         { title: "CodeBuilders", image: codebuilders, imgAlt: "image_codeBuilders", url: "https://businesscodebuilders.com/" },
-        { title: "Web Development Blog", image: blog, imgAlt: "image_blog", url: "https://joeltrincado.blog/" },
+        { title: "Web Development", image: blog, imgAlt: "image_blog", url: "https://joeltrincado.blog/" },
         { title: "Euceda Construction", image: euceda, imgAlt: "image_euceda", url: "https://eucedaconstruction.com/" },
         { title: "Mex Cantina", image: mexcantina, imgAlt: "image_mexcantina", url: "https://mex-cantina.com/" },
         { title: "Temachtiani Magazine", image: magazine, imgAlt: "image_temachtiani", url: "https://revistatemachtiani.net/" },
@@ -60,8 +60,9 @@ const Home = () => {
                     <fieldset className="container">
                         <legend>Latest Projects</legend>
                     </fieldset>
-
+                    <div className="carousel-ser">
                     <CarouselServices categories={categories}></CarouselServices>
+                    </div>
                     <div className="c_newPack">
                         <section className="newPack container">
                             <div className="content">
@@ -75,7 +76,7 @@ const Home = () => {
                                         visibility and accessibility, which can translate into greater reach and
                                         business opportunities.
                                     </p>
-                                    <Link target="_blank" to={'https://joeltrincado.blog/the-need-for-a-website'}>
+                                    <Link target="_blank" to={'https://joeltrincado.blog/ventajas-de-tener-un-sitio-web-profesional-en-2024'}>
                                         Learn more about web development
                                         {"   "}<i className="pi pi-arrow-right" />
                                     </Link>

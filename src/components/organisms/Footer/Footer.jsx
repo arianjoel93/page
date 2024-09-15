@@ -16,7 +16,7 @@ const Footer = () => {
             title: "What You Need to Know",
             link: [
                 { title: "About Me", url: "/about-me" },
-                { title: "Contact Me", url: "https://joeltrincado.blog/contact" },
+                { title: "Contact Me", url: "https://joeltrincado.blog/contacto" },
                 // { title: "Upcoming Services", url: "https://wa.me/+5213344703129" },
                 { title: "Blog", url: "https://joeltrincado.blog" },
             ]
