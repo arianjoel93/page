@@ -11,6 +11,11 @@ const CarouselServices = ({ categories }) => {
             numVisible: 3,
             numScroll: 1
         },
+        {
+            breakpoint: '768px',
+            numVisible: 1,
+            numScroll: 1
+        },
 
     ];
 
