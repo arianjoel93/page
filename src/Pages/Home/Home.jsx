@@ -33,7 +33,7 @@ const Home = () => {
         { title: "Web Development", image: blog, imgAlt: "image_blog", url: "https://joeltrincado.blog/" },
         { title: "Euceda Construction", image: euceda, imgAlt: "image_euceda", url: "https://eucedaconstruction.com/" },
         { title: "Mex Cantina", image: mexcantina, imgAlt: "image_mexcantina", url: "https://mex-cantina.com/" },
-        { title: "Temachtiani Magazine", image: magazine, imgAlt: "image_temachtiani", url: "https://revistatemachtiani.net/" },
+        { title: "Revista Temachtiani", image: magazine, imgAlt: "image_temachtiani", url: "https://revistatemachtiani.net/" },
         { title: "Shipping Quote Calculator", image: quoteCalculator, imgAlt: "image_quoteCalculator", url: "/projects/quote-calculator" },
         { title: "Apexgrúas", image: gruas, imgAlt: "image_gruas", url: "https://apexgruas.com/" },
     ]
