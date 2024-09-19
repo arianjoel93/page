@@ -291,7 +291,7 @@
     .newPack {
         @media (max-width: 1080px) {
             display: flex;
-            flex-wrap: wrap;
+            // flex-wrap: wrap;
             flex-direction: column-reverse;
             gap: 20px;
         }
