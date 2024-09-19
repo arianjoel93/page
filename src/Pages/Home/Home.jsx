@@ -8,6 +8,7 @@ import ili from "../../assets/sitio.png"
 import website from "../../assets/sitio_web.png"
 import euceda from "../../assets/euceda.png"
 import mexcantina from "../../assets/mexcantina.png"
+import padrinoss from "../../assets/padrinoss.png"
 import gruas from "../../assets/gruas.png"
 import landing from "../../assets/landing.png"
 import linear from "../../assets/lineal.png"
@@ -33,6 +34,7 @@ const Home = () => {
         { title: "Web Development", image: blog, imgAlt: "image_blog", url: "https://joeltrincado.blog/" },
         { title: "Euceda Construction", image: euceda, imgAlt: "image_euceda", url: "https://eucedaconstruction.com/" },
         { title: "Mex Cantina", image: mexcantina, imgAlt: "image_mexcantina", url: "https://mex-cantina.com/" },
+        { title: "Padrinos (Branding Labs)", image: padrinoss, imgAlt: "image_padrinoss", url: "https://padrinoss.com/" },
         { title: "Revista Temachtiani", image: magazine, imgAlt: "image_temachtiani", url: "https://revistatemachtiani.net/" },
         { title: "Shipping Quote Calculator", image: quoteCalculator, imgAlt: "image_quoteCalculator", url: "/projects/quote-calculator" },
         { title: "Apexgrúas", image: gruas, imgAlt: "image_gruas", url: "https://apexgruas.com/" },
